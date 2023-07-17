@@ -1,0 +1,30 @@
+
+.cont{
+    color: white;
+    height: 500px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+
+}
+.about h1{
+font-size: 45px;
+border-bottom: 7px #152855 groove;
+
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.para p{
+    width: 700px;
+}
+.but{
+   display: flex;
+   justify-content: center;
+}
+

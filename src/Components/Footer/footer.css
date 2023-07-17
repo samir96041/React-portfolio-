@@ -1,0 +1,30 @@
+
+footer {
+    background-color: var(--black);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 0 0 10px 0;
+  }
+  
+  footer p {
+    padding: 15px 0;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+  }
+  
+  .social-links a {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .logos:hover {
+    transition: 0.4s;
+    transform: translatey(-5px);
+  }
+  
