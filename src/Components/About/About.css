@@ -1,7 +1,9 @@
 
+
+
 .cont{
     color: white;
-    height: 500px;
+    height: 450px;
 }
 
 .about{
@@ -27,4 +29,10 @@ border-bottom: 7px #152855 groove;
    display: flex;
    justify-content: center;
 }
-
+@media (max-width:500px) {
+    .cont{
+        color: white;
+        height: 680px;
+    }
+    
+}
