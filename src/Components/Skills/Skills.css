@@ -28,7 +28,7 @@ margin-top: 8px;
    
 }
 .Cards img{
-    height: 100px;
+    height: 80px;
   
 }
 
@@ -51,7 +51,7 @@ margin-top: 8px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        width:400px;
+        width: 360px;
         margin-top: -100px;
     }
       

@@ -404,18 +404,18 @@ justify-content:center;
     .right{
       position: absolute;
       height: 651px;
-      bottom: -490px;
-     margin-left: 30px;
+      bottom: -580px;
+     margin-left: 20px;
     }
     
 .i-right{
-  width: 310px;
-  height: 310px;
+  width: 290px;
+  height: 290px;
   
   }
   .glowing-circle2{
       width: 280px;
-      height: 280px;
+      height: 264px;
   }
   .image img {
     height:350px;
@@ -425,4 +425,12 @@ justify-content:center;
     left: 15%;
 }
 
+  }
+  @media (max-height:700px){
+    .right{
+      position: absolute;
+      height: 651px;
+      bottom: -635px;
+     margin-left: 30px;
+    }
   }
