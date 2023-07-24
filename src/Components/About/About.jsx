@@ -1,5 +1,7 @@
 import React from 'react'
 import '../About/About.css'
+import pdf from '../images/samirbante.pdf'
+
 const About = () => {
   return (
     <>
@@ -14,7 +16,9 @@ const About = () => {
           </p>
         </div>
         <div className='but'>
-          <button className="button-85 i-button" role="button">Resume</button>
+        <a href={pdf} download={pdf}>
+          <button className="button-85 i-button" role="button">  Resume</button></a>
+          
         </div>
       </div>
     </>
